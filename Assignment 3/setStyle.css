@@ -1,0 +1,80 @@
+body
+{
+  
+  background: linear-gradient(to left,red,orange);
+}
+
+
+
+
+div{
+
+       
+       width: 550px;
+ 
+       height: 400px;
+   
+       background-color: white;
+  
+       border-radius: 25px ;
+
+       border: solid rgb(255, 136, 0);
+ 
+       position: absolute;
+    margin: auto;
+ 
+     filter: drop-shadow(4px 4px 10px);
+ left: 0;
+    right: 0;
+    
+       display: none;
+
+       font-size: 25px;
+
+       font-style:italic;
+       font-weight:bold;  
+       text-align: center;
+ 
+       
+     
+ 
+   
+}
+
+
+
+input, button{
+  
+                          
+  font-size:17px;
+ 
+  border:white;
+  margin: 5px 150px;
+  
+  width: 250px;
+
+  height: 35px;
+  
+  border-radius: 15px;
+ 
+  text-align: center;
+  
+   
+ 
+  
+
+
+
+  
+}
+
+
+ 
+input:hover{
+
+
+  background: linear-gradient(to right,red,orange,yellow);
+
+
+
+}
