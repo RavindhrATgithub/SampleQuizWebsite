@@ -6,7 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student feedback system</title>
     <link rel="stylesheet" href="./setStyle.css">
-    <script src="./setJavascript.js"></script>
+    <script >
+     var p=1;
+var ans=0;
+function call(l)
+{
+  if(l==1)
+  ans++;
+  if(p<=10)
+  {
+   
+  
+
+  
+
+  var pre=document.getElementById(""+p);
+  var next=document.getElementById(""+(++p));
+  
+pre.style.display="none";
+next.style.display="block";
+
+  }
+}
+function answer()
+{
+
+  pp=document.getElementById("display");
+  pp.innerHTML=""+ans;
+  return false;
+}
+    </script>
 
 </head>
 <body>
